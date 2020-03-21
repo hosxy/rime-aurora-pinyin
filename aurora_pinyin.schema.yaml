@@ -12,6 +12,7 @@ schema:
     包括《通用规范汉字表》全部8105个汉字及部分未收录汉字/字符
   dependencies:
     - stroke
+    - essay-simp
 
 switches:
   - name: ascii_mode
