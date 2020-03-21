@@ -1,6 +1,6 @@
 # Rime schema
 # encoding: utf-8
-	
+
 schema:
   schema_id: aurora_pinyin
   name: 极光拼音
