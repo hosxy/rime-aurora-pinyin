@@ -40,6 +40,6 @@
 对于双拼用户，默认后端使用的是【朙月拼音】,如果想切换到【极光拼音】，以小鹤双拼为例，在`double_pinyin_flypy.custom.yaml`中加入以下内容：
 ```yaml
 patch:
-	translator/dictionary: aurora_pinyin
+  translator/dictionary: aurora_pinyin
 ```
 然后重新部署即可。
