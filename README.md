@@ -43,3 +43,7 @@ patch:
   translator/dictionary: aurora_pinyin
 ```
 然后重新部署即可。
+
+### 修订
++ 码表中可能会存在一些错误，比如错音，漏音之类的，如果发现有码表有错误欢迎指正，可以提 issue 或者 PR.
++ 如果你发现有什么较常用字/网络流行字没有收录的，也欢迎提 issue 或者 PR.
