@@ -5,7 +5,7 @@
 #
 # 感谢以下项目: 
 #
-#	*《通用规范汉字表》
+# *《通用规范汉字表》
 # 	http://www.gov.cn/zwgk/2013-08/19/content_2469793.htm
 # 	http://www.moe.gov.cn/s78/A19/yxs_left/moe_810/s230/201306/t20130601_186002.html
 #
@@ -5464,7 +5464,7 @@ vocabulary: essay-zh-hans
 翌	yi
 恿	yong
 欸	ai
-欸	e
+欸	ei
 绫	ling
 骐	qi
 绮	qi
@@ -8720,3 +8720,4 @@ vocabulary: essay-zh-hans
 瞐	mo
 惢	suo
 惢	rui
+诶	ei
