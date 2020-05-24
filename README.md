@@ -20,13 +20,13 @@
 
 +   手动安装
 
-    下载本仓库内的`aurora_pinyin.dict.yaml`和`aurora_pinyin.schema.yaml`以及[简化字八股文](https://github.com/rime/rime-essay-simp)仓库内的`essay-zh-hans.txt`文件到Rime用户配置目录中
+    下载本仓库内的`aurora_pinyin.dict.yaml`和`aurora_pinyin.schema.yaml`以及[简化字八股文](https://github.com/rime/rime-essay-simp)仓库内的`essay-zh-hans.txt`到 Rime 用户配置目录中。
 
 ### 特点
 
 + 专为简体中文用户设计
 
-    >   【极光拼音】是一款专门为简体中文用户设计的拼音输入法方案，它与默认面向繁体中文用户的【朙月拼音】和使用 `opencc`转换的【朙月拼音·简体字】不同之处在于，【极光拼音】的码表是简体中文，不须要经过`opencc`转换，从而可以避免一些`opencc`转换带来的问题。
+    >   【极光拼音】是一款专门为简体中文用户设计的拼音输入法方案，它与【朙月拼音】不同之处在于，【极光拼音】的码表是简体中文，不须要经过`opencc`转换，从而可以避免一些`opencc`转换带来的问题。
 
 + 码表
 
@@ -43,3 +43,7 @@ patch:
   translator/dictionary: aurora_pinyin
 ```
 然后重新部署即可。
+
+### 修订
++ 码表中可能会存在一些错误，比如错音，漏音之类的，如果发现有码表有错误欢迎指正，可以提 issue 或者 PR.
++ 如果你发现有什么较常用字/网络流行字没有收录的，也欢迎提 issue 或者 PR.(**Note: 不接受繁体字，除非有特殊情况**)
