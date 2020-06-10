@@ -41,7 +41,7 @@ patch:
 然后重新部署即可。
 
 ### 词库
-考虑到简化字八股文方案（℞ essay-simp ）对多音字处理极差，已经不再使用其提供词库，转而自带 sunpinyin 的词库，约 5W 条词汇。
+考虑到简化字八股文方案（℞ essay-simp ）无法正确处理多音字，已经不再使用其提供词库，转而自带 sunpinyin 的词库，约 5W 条词汇。
 不过这里推荐使用 `felixonmars` 的 [zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases) 词库，有上百万条词汇，效果极佳。
 
 ### 修订

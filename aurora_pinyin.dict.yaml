@@ -19,7 +19,6 @@
 name: aurora_pinyin
 version: "0.1"
 sort: by_weight
-vocabulary: essay-zh-hans
 
 ...
 
