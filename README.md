@@ -16,7 +16,7 @@
 
 +   手动安装
 
-    下载本仓库内的`aurora_pinyin.dict.yaml`和`aurora_pinyin.schema.yaml`以及[简化字八股文](https://github.com/rime/rime-essay-simp)仓库内的`essay-zh-hans.txt`到 Rime 用户配置目录中。
+    下载本仓库内的`aurora_pinyin.dict.yaml`和`aurora_pinyin.schema.yaml`到 Rime 用户配置目录中。
 
 ### 特点
 
