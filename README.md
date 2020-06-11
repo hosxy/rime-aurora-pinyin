@@ -42,7 +42,7 @@ patch:
 
 ### 词库
 考虑到简化字八股文方案（℞ essay-simp ）无法正确处理多音字，已经不再使用其提供词库，转而自带 sunpinyin 的词库，约 5W 条词汇。
-不过这里推荐使用 `felixonmars` 的 [zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases) 词库，有上百万条词汇，效果极佳。
+不过这里推荐使用 `felixonmars` 的 [zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki/releases) 词库，有上百万条词汇，效果极佳。如果可能的话建议打开语言模型(语料库)插件，以提高整句输入的准确性。
 
 ### 修订
 + 码表中可能会存在一些错误，比如错音，漏音之类的，如果发现有码表有错误欢迎指正，可以提 issue 或者 PR.
