@@ -12,7 +12,7 @@
 
 +    東風破
 
-     [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install hosxy/rime-aurora-pinyin essay-simp`
+     [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install hosxy/rime-aurora-pinyin`
 
 +   手动安装
 
