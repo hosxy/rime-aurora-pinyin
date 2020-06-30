@@ -21,9 +21,9 @@ switches:
     states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - options: ["gbk","utf8"]                         # 字符集
-    reset: 0                                        # 默认为 GBK 字符集(常用字)
-    states: [常用字, 生僻字]
+  - options: ["gb2312","gbk","utf8"]                # 字符集
+    reset: 1                                        # 默认为 GBK 字符集(常用字)
+    states: [GB2312, 常用字(GBK), 生僻字(UTF-8)]
 
 engine:
   processors:
@@ -47,6 +47,7 @@ engine:
     - script_translator
   filters:
     - uniquifier
+    - charset_filter@gb2312
     - charset_filter@gbk
 
 speller:
