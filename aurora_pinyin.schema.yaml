@@ -59,15 +59,21 @@ speller:
     - abbrev/^([zcs]h).+$/$1/
     - derive/^([nl])ve$/$1ue/
     - derive/^([jqxy])u/$1v/
-    - derive/un$/uen/
-    - derive/ui$/uei/
-    - derive/iu$/iou/
-    - derive/([aeiou])ng$/$1gn/
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/
-    - derive/ong$/on/
-    - derive/ao$/oa/
-    - derive/([iu])a(o|ng?)$/a$1$2/
-
+    
+    # 纠错
+    - derive/un$/uen/ # uen > un
+    - derive/ui$/uei/ # uei > ui
+    - derive/iu$/iou/ # iou > ui
+    - derive/([aeiou])ng$/$1gn/ # gn > ng
+    - derive/ong$/on/ # on > ong
+    - derive/ao$/oa/ # oa > ao
+    - derive/([iu])a(o|ng?)$/a$1$2/ # aio > iao, aing > iang, aung > uang
+    - derive/tie$/tei/ # tei > tie
+    - derive/i$/ii/ # ii > i i 错按两次
+    - derive/u$/uu/ # uu > u u 错按两次
+    - derive/xia$/cia/ # cia > xia
+    
 translator:
   dictionary: aurora_pinyin
   preedit_format:
