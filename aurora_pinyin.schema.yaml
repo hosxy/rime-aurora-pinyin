@@ -55,6 +55,7 @@ speller:
   delimiter: " '"
   algebra:
     - erase/^xx$/
+    - fuzz/^([m-n]).+$/$1/ # 解决部分 单声母拟声字 候选词问题
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
     - derive/^([nl])ve$/$1ue/
